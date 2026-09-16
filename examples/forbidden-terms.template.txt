@@ -1,0 +1,20 @@
+# Copy this file to forbidden.txt and edit for each release.
+# Blank lines and # comments are ignored.
+
+# Your agency or internal company names
+Agency Name
+Internal Product Name
+
+# Other clients or sibling brands
+Other Client Name
+otherclient.com
+
+# Internal infrastructure
+staging.example.net
+preview.example.net
+localhost
+127.0.0.1
+
+# Old support and sales routes
+old-support@example.com
+founder@example.com
