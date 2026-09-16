@@ -47,6 +47,15 @@ rsync -az ./dist/ deploy-target:/srv/site/
 Scans text-bearing files by extension (`.html .js .css .json .xml .svg
 .webmanifest .map` …) — case-insensitive, zero dependencies, plain Node.
 
+## Free templates
+
+- [Forbidden terms template](examples/forbidden-terms.template.txt) — copy and
+  edit per client or product release.
+- [GitHub Action template](examples/github-action.yml) — wire the guard into
+  pull requests and `main` pushes.
+- [White-label release checklist](docs/white-label-release-checklist.md) —
+  what to scan before and after deploy.
+
 ## What it doesn't do
 
 It can't see strings assembled at runtime, and it doesn't crawl the live site
